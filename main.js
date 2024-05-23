@@ -5,7 +5,7 @@ function work(event, target) {
 
 var range = document.getElementById('range');
 var image = document.getElementById('target');
-let changeDelay = 150; // Default delay in milliseconds between image changes
+let changeDelay = 15; // Default delay in milliseconds between image changes
 let lastChangeTime = 0; // Last time the image was changed
 let isMouseDown = false; // Check if the left mouse button is pressed
 let startX = 0; // Store the starting X coordinate of mouse movement
